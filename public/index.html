@@ -9,31 +9,28 @@
     <!-- Add external styles or links here -->
 </head>
     <style>
-        /* Style for the confined text area */
-       /* Style for the confined div */
-    .confined-text {
-      max-width: 600px;           /* Confines the width of the div */
-      width: 100%;                /* Ensures responsiveness */
-      padding: 20px;              /* Adds padding inside the div */
-      background-color: white;    /* Background color for the box */
-      text-align: center;         /* Centers the text inside the div */
-      border: 1px solid #ccc;     /* Optional: border around the box */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
-    }
+    /* Center the confined-text div horizontally and vertically */
+body {
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  height: 100vh;             /* Full viewport height */
+  margin: 0;
+  background-color: #f4f4f4; /* Optional: Background color */
+}
 
-        /* Style for the ordered list */
-        ol {
-            margin: 0;
-            padding-left: 20px; /* Indent the list numbers */
-        }
+/* Style for the confined-text div */
+.confined-text {
+  max-width: 800px;          /* Confine the width of the div */
+  width: 100%;               /* Ensures responsiveness */
+  padding: 20px;             /* Add padding inside the div */
+  background-color: white;   /* Background color for visibility */
+  text-align: left;          /* Keep the text aligned left inside the box */
+  border: 1px solid #ccc;    /* Optional: border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  overflow-y: auto;          /* If content is too long, make it scrollable */
+}
 
-        /* Optional: Style for each list item */
-        ol li {
-            margin-bottom: 10px; /* Adds space between each list item */
-        }
-        body {
-    text-align: center;
-    }
     </style>
 </head>
 <body>
