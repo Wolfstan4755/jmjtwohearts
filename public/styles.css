@@ -75,3 +75,9 @@ header div {
     margin-top: 10px; /* Space above the description */
 }
 
+img.center-image {
+    display: block;           /* Make it a block element to apply margin */
+    margin: 20px auto;        /* Auto margin to center it horizontally */
+    max-width: 100%;          /* Ensure the image does not overflow its container */
+    height: auto;             /* Maintain aspect ratio */
+}
