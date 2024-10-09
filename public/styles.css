@@ -81,3 +81,23 @@ img.center-image {
     max-width: 100%;          /* Ensure the image does not overflow its container */
     height: auto;             /* Maintain aspect ratio */
 }
+
+nav {
+    margin-bottom: 20px;           /* Add space between the navigation and content */
+    text-align: center;            /* Center the buttons */
+}
+
+nav button {
+    background-color: #4CAF50;     /* Green background */
+    color: white;                  /* White text */
+    padding: 10px 20px;            /* Padding inside the buttons */
+    margin: 5px;                   /* Add space between buttons */
+    border: none;                  /* Remove border */
+    cursor: pointer;               /* Show pointer on hover */
+    font-size: 16px;               /* Font size */
+    border-radius: 5px;            /* Rounded corners */
+}
+
+nav button:hover {
+    background-color: #45a049;     /* Darker green on hover */
+}
