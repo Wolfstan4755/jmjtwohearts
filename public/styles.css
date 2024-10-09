@@ -1,21 +1,23 @@
-/* Center the confined-text div horizontally and vertically */
+/* Basic reset */
 body {
-    display: flex;
-    justify-content: left;   /* Center horizontally */
-    align-items: left;       /* Center vertically */
-    height: 500vh;             /* Full viewport height */
-    margin: 0;                 /* Remove default margin */
-    background-color: #f4f4f4; /* Optional: Background color for visibility */
+    height: 100vh;                  /* Full viewport height */
+    margin: 0;                      /* Remove default margin */
+    display: block;                 /* Use block layout */
+    text-align: center;             /* Center text horizontally */
+    background-color: #6ac3f6;      /* Optional: Background color for visibility */
 }
 
-/* Style for the confined-text div */
+/* Centering the confined-text div */
 .confined-text {
-    max-width: 800px;          /* Confine the width of the div */
-    width: 100%;               /* Ensures responsiveness */
-    padding: 20px;             /* Add padding inside the div */
-    background-color: white;   /* Background color for visibility */
-    text-align: left;          /* Keep the text aligned left inside the box */
-    border: 1px solid #ccc;    /* Optional: border */
+    max-width: 800px;               /* Maximum width for the box */
+    width: 100%;                    /* Full width up to max-width */
+    margin: auto;                   /* Center horizontally */
+    padding: 20px;                  /* Add padding inside the box */
+    background-color: white;        /* Background color for visibility */
+    text-align: left;               /* Text aligned to the left inside the box */
+    border: 1px solid #ccc;         /* Optional: border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    overflow-y: auto;          /* If content is too long, make it scrollable */
+    position: relative;             /* Set position to allow centering */
+    top: 50%;                       /* Move down to the middle of the viewport */
+    transform: translateY(-50%);   /* Adjust to center it vertically */
 }
