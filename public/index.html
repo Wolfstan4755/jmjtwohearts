@@ -10,15 +10,16 @@
 </head>
     <style>
         /* Style for the confined text area */
-        .confined-text {
-            width: 500px;      /* Width of the container */
-            height: 400px;     /* Height of the container */
-            overflow-y: auto;  /* Adds a vertical scrollbar if the text is too long */
-            text-align: center;    /* Centers the text inside the div */
-            padding: 15px;     /* Padding inside the container */
-            border: 1px solid #857f7f; /* Optional: Border around the text area */
-            background-color: #f0eaea; /* Optional: Background color */
-        }
+       /* Style for the confined div */
+    .confined-text {
+      max-width: 600px;           /* Confines the width of the div */
+      width: 100%;                /* Ensures responsiveness */
+      padding: 20px;              /* Adds padding inside the div */
+      background-color: white;    /* Background color for the box */
+      text-align: center;         /* Centers the text inside the div */
+      border: 1px solid #ccc;     /* Optional: border around the box */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for effect */
+    }
 
         /* Style for the ordered list */
         ol {
@@ -31,12 +32,7 @@
             margin-bottom: 10px; /* Adds space between each list item */
         }
         body {
-      text-align: center;
-      display: flex;
-      justify-content: center;  /* Center div horizontally */
-      align-items: center;      /* Center div vertically */
-      height: 100vh;            /* Full viewport height */
-      margin: 0;
+    text-align: center;
     }
     </style>
 </head>
