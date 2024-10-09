@@ -1,23 +1,54 @@
 /* Basic reset */
 body {
-    height: 100vh;                  /* Full viewport height */
-    margin: 0;                      /* Remove default margin */
-    display: block;                 /* Use block layout */
-    text-align: center;             /* Center text horizontally */
-    background-color: #6ac3f6;      /* Optional: Background color for visibility */
+    height: 100vh;                     /* Full viewport height */
+    margin: 0;                         /* Remove default margin */
+    display: block;                    /* Use block layout */
+    text-align: center;                /* Center text horizontally */
+    font-family: 'Roboto', sans-serif; /* Use Roboto as the main font */
+    font-size: 16px;                   /* Set a base font size */
+    color: #333;                       /* Default text color */
+    background-color: #6ac3f6;         /* Background color for visibility */
 }
 
 /* Centering the confined-text div */
 .confined-text {
-    max-width: 800px;               /* Maximum width for the box */
-    width: 100%;                    /* Full width up to max-width */
-    margin: auto;                   /* Center horizontally */
-    padding: 20px;                  /* Add padding inside the box */
-    background-color: white;        /* Background color for visibility */
-    text-align: left;               /* Text aligned to the left inside the box */
-    border: 1px solid #ccc;         /* Optional: border */
+    max-width: 800px;                  /* Maximum width for the box */
+    width: 100%;                       /* Full width up to max-width */
+    margin: auto;                      /* Center horizontally */
+    padding: 20px;                     /* Add padding inside the box */
+    background-color: white;           /* Background color for visibility */
+    text-align: left;                  /* Text aligned to the left inside the box */
+    border: 1px solid #ccc;            /* Optional: border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    position: relative;             /* Set position to allow centering */
-    top: 50%;                       /* Move down to the middle of the viewport */
-    transform: translateY(-50%);   /* Adjust to center it vertically */
+    position: relative;                /* Set position to allow centering */
+    top: 50%;                          /* Move down to the middle of the viewport */
+    transform: translateY(-50%);      /* Adjust to center it vertically */
+}
+
+/* Optional: Media query for smaller screens */
+@media (max-width: 600px) {
+    .confined-text {
+        padding: 15px;                /* Adjust padding for smaller screens */
+        margin: 10px;                 /* Add margin for spacing */
+    }
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/MyCustomFont.woff2') format('woff2'),
+         url('/fonts/MyCustomFont.woff') format('woff'),
+         url('/fonts/MyCustomFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: 'Wittgenstein', sans-serif; /* Use custom font for headings */
+    font-weight: 700;                       /* Bold for headings */
+    text-align: center;                     /* Center headings */
+}
+
+p, li {
+    font-weight: 400;                       /* Normal weight for paragraphs and list items */
+    line-height: 1.6;                       /* Increase line spacing for readability */
 }
