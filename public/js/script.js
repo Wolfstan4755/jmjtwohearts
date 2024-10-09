@@ -4,5 +4,5 @@ console.log("JavaScript is running!");
 // Example: Change the text of an h1 element
 document.addEventListener('DOMContentLoaded', function() {
     const heading = document.querySelector('h1');
-    heading.textContent = "This text was changed by JavaScript!";
+    heading.textContent = "Welcome to the three Hearts Project!";
 });
