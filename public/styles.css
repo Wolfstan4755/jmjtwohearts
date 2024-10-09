@@ -2,8 +2,8 @@
 body {
     display: flex;
     justify-content: center;   /* Center horizontally */
-    align-items: center;       /* Center vertically */
-    height: 1000vh;             /* Full viewport height */
+    align-items: left;       /* Center vertically */
+    height: 500vh;             /* Full viewport height */
     margin: 0;                 /* Remove default margin */
     background-color: #f4f4f4; /* Optional: Background color for visibility */
 }
