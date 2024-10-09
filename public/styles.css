@@ -1,14 +1,15 @@
-   /* Center the confined-text div horizontally and vertically */
-   body {
+/* Center the confined-text div horizontally and vertically */
+body {
     display: flex;
-    justify-content: center;   /* Center horizontally */      /* Center vertically */
-    height: 100vh;             /* Full viewport height */
-    margin: 0;
-    background-color: #f4f4f4; /* Optional: Background color */
-  }
-  
-  /* Style for the confined-text div */
-  .confined-text {
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    height: 1000vh;             /* Full viewport height */
+    margin: 0;                 /* Remove default margin */
+    background-color: #f4f4f4; /* Optional: Background color for visibility */
+}
+
+/* Style for the confined-text div */
+.confined-text {
     max-width: 800px;          /* Confine the width of the div */
     width: 100%;               /* Ensures responsiveness */
     padding: 20px;             /* Add padding inside the div */
@@ -17,5 +18,4 @@
     border: 1px solid #ccc;    /* Optional: border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
     overflow-y: auto;          /* If content is too long, make it scrollable */
-  }
-  
+}
