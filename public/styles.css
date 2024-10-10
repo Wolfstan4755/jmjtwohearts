@@ -13,7 +13,7 @@ body {
     width: 100%;                       /* Full width up to max-width */
     margin: 20px auto;                 /* Center horizontally and add margin */
     padding: 20px;                     /* Add padding inside the box */
-    background-color: #4caf50;           /* Background color for visibility */
+    background-color: white;           /* Background color for visibility */
     text-align: center;                /* Center the text */
     border: 1px solid #ccc;            /* Optional: border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
