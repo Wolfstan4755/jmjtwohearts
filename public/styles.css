@@ -7,15 +7,22 @@ body {
     background-color: #6ac3f6;
 }
 
+/* Centering the confined-text div */
 .confined-text {
-    max-width: 800px;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    text-align: left;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;                  /* Maximum width for the box */
+    width: 100%;                       /* Full width up to max-width */
+    margin: 20px auto;                 /* Center horizontally and add margin */
+    padding: 20px;                     /* Add padding inside the box */
+    background-color: #4caf50;           /* Background color for visibility */
+    text-align: center;                /* Center the text */
+    border: 1px solid #ccc;            /* Optional: border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Optional: Make buttons inline-block to behave more consistently */
+.confined-text a.nav-button,
+.confined-text button {
+    display: inline-block;             /* Ensure buttons and links behave like inline-block */
 }
 
 /* Custom font face */
