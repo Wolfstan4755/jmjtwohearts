@@ -11,7 +11,7 @@ body {
 .confined-text {
     max-width: 800px;                  /* Maximum width for the box */
     width: 100%;                       /* Full width up to max-width */
-    margin: 20px auto;                /* Center horizontally and add margin */
+    margin: 20px auto;                 /* Center horizontally and add margin */
     padding: 20px;                     /* Add padding inside the box */
     background-color: white;           /* Background color for visibility */
     text-align: left;                  /* Text aligned to the left inside the box */
@@ -57,47 +57,48 @@ button:hover {
 }
 
 header {
-    text-align: center; /* Center the header content */
-    padding: 20px; /* Optional padding for the header */
+    text-align: center;                   /* Center the header content */
+    padding: 20px;                        /* Optional padding for the header */
 }
 
 header img {
-    margin-bottom: 20px; /* Space below the image */
+    margin-bottom: 20px;                  /* Space below the image */
 }
 
 header h1 {
-    margin-top: 20px; /* Space above the heading */
+    margin-top: 20px;                     /* Space above the heading */
     font-family: 'Wittgenstein', sans-serif; /* Custom font for the heading */
-    font-weight: 700; /* Bold heading */
+    font-weight: 700;                     /* Bold heading */
 }
 
 header div {
-    margin-top: 10px; /* Space above the description */
+    margin-top: 10px;                     /* Space above the description */
 }
 
 img.center-image {
-    display: block;           /* Make it a block element to apply margin */
-    margin: 20px auto;        /* Auto margin to center it horizontally */
-    max-width: 100%;          /* Ensure the image does not overflow its container */
-    height: auto;             /* Maintain aspect ratio */
+    display: block;                       /* Make it a block element to apply margin */
+    margin: 20px auto;                    /* Auto margin to center it horizontally */
+    max-width: 100%;                      /* Ensure the image does not overflow its container */
+    height: auto;                         /* Maintain aspect ratio */
 }
 
+/* Navigation bar styles */
 nav {
-    margin-bottom: 20px;           /* Add space between the navigation and content */
-    text-align: center;            /* Center the buttons */
+    margin-bottom: 20px;                  /* Add space between the navigation and content */
+    text-align: center;                   /* Center the buttons */
 }
 
 nav button {
-    background-color: #4CAF50;     /* Green background */
-    color: white;                  /* White text */
-    padding: 10px 20px;            /* Padding inside the buttons */
-    margin: 5px;                   /* Add space between buttons */
-    border: none;                  /* Remove border */
-    cursor: pointer;               /* Show pointer on hover */
-    font-size: 16px;               /* Font size */
-    border-radius: 5px;            /* Rounded corners */
+    background-color: #4CAF50;            /* Green background */
+    color: white;                         /* White text */
+    padding: 10px 20px;                   /* Padding inside the buttons */
+    margin: 5px;                          /* Add space between buttons */
+    border: none;                         /* Remove border */
+    cursor: pointer;                      /* Show pointer on hover */
+    font-size: 16px;                      /* Font size */
+    border-radius: 5px;                   /* Rounded corners */
 }
 
 nav button:hover {
-    background-color: #45a049;     /* Darker green on hover */
+    background-color: #45a049;            /* Darker green on hover */
 }
