@@ -84,21 +84,24 @@ img.center-image {
 
 /* Navigation bar styles */
 nav {
-    margin-bottom: 20px;                  /* Add space between the navigation and content */
-    text-align: center;                   /* Center the buttons */
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-nav button {
-    background-color: #4CAF50;            /* Green background */
-    color: white;                         /* White text */
-    padding: 10px 20px;                   /* Padding inside the buttons */
-    margin: 5px;                          /* Add space between buttons */
-    border: none;                         /* Remove border */
-    cursor: pointer;                      /* Show pointer on hover */
-    font-size: 16px;                      /* Font size */
-    border-radius: 5px;                   /* Rounded corners */
+nav a.nav-button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    padding: 10px 20px;         /* Padding inside the buttons */
+    margin: 5px;                /* Space between the buttons */
+    border: none;               /* Remove border */
+    border-radius: 5px;         /* Rounded corners */
+    text-decoration: none;      /* Remove underline */
+    display: inline-block;      /* Make links behave like buttons */
+    font-size: 16px;            /* Font size */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
 }
 
-nav button:hover {
-    background-color: #45a049;            /* Darker green on hover */
+nav a.nav-button:hover {
+    background-color: #45a049;  /* Darker green on hover */
 }
