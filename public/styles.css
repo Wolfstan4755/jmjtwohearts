@@ -14,7 +14,7 @@ body {
     margin: 20px auto;                 /* Center horizontally and add margin */
     padding: 20px;                     /* Add padding inside the box */
     background-color: white;           /* Background color for visibility */
-    text-align: left;                /* Center the text */
+    text-align: center;                /* Center the text */
     border: 1px solid #ccc;            /* Optional: border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
